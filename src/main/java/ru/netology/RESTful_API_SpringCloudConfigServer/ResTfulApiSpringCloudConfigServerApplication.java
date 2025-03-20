@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
-//Config Server, читает настройки из реп-я и отдавает их клиентам
+//Config Server, читает настройки из реп-я и отдает их клиентам
 @EnableConfigServer
 public class ResTfulApiSpringCloudConfigServerApplication {
 
